@@ -2,8 +2,18 @@
 
 Version 0.1.0
 
-reprocode is the best
+reprocode is the best!
 
+## Assumptions and expectations on data or (user) input
+- Have a data frame of cohort baseline covariates including start of follow-up time (date), end of follow-up time (date), patient identifier (numeric), gender (1/2 factor), follow-up time in years (double), age group in 10-year strata (character), and stratum of calendar period of index date (character).
+- Have a data frame of infections recorded, containing patient identifiers (integer) that links to patient identifiers in the data frame of cohort baseline covariates, event date of the infection (date), type of infection (character), start of follow-up time (date), and end of follow-up time (date).
+
+## Assumptions and expectations on the input of (a) function(s)
+
+### Function to indicate whether infections were part of an ongoing episode of infection or the start of a new episode:
+- Have the data frame with all infection recorded (point 2 above)
+- Choose the duration of time to consider for the history of infection (time until index date) in years (integer)
+- Choose the duration of one episode of infection in days (integer)
 
 ## Project organization
 
