@@ -38,7 +38,9 @@ reprocode is the best!
 - fakeR
 
 ### Installation instructions
-    install.packages(c("epiR", "PropCIs", "gridExtra", "cowplot", "tableone", "epitools", "viridis", "knitr", "gridExtra", "ggplot2", "ggforce", "ggpubr", "feather", "tidyverse", "reshape2", "fakeR"))
+    install.packages(c("epiR", "PropCIs", "gridExtra", "cowplot", "tableone",
+    "epitools", "viridis", "knitr", "gridExtra", "ggplot2", "ggforce",
+    "ggpubr", "feather", "tidyverse", "reshape2", "fakeR"))
 
 ## Project organization
 
