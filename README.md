@@ -2,7 +2,7 @@
 
 Version 0.1.0
 
-reprocode
+reprocode is the best
 
 
 ## Project organization
