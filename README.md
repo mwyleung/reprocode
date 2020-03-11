@@ -15,6 +15,31 @@ reprocode is the best!
 - Choose the duration of time to consider for the history of infection (time until index date) in years (integer)
 - Choose the duration of one episode of infection in days (integer)
 
+## Basic dependency information
+
+### R version 3.6.1
+
+### Packages
+- epiR
+- PropCIs
+- gridExtra
+- cowplot
+- tableone
+- epitools
+- viridis
+- knitr
+- gridExtra
+- ggplot2
+- ggforce
+- ggpubr
+- feather
+- tidyverse
+- reshape2
+- fakeR
+
+### Installation instructions
+    install.packages(c("epiR", "PropCIs", "gridExtra", "cowplot", "tableone", "epitools", "viridis", "knitr", "gridExtra", "ggplot2", "ggforce", "ggpubr", "feather", "tidyverse", "reshape2", "fakeR"))
+
 ## Project organization
 
 ```
